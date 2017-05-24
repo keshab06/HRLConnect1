@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HRL_Module.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -963,8 +964,10 @@
     <None Include="Scripts\jquery-1.9.0.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.0.js" />
     <Content Include="Scripts\jquery-1.9.0.min.js" />
-    <Content Include="Views\Dashboard.html" />
-    <Content Include="Views\ProfileDetails.html" />
+    <Content Include="Views\DashBoard\Dashboard.html" />
+    <Content Include="Views\DashBoard\dashboardCtrl.js" />
+    <Content Include="Views\ProfileDetails\ProfileDetails.html" />
+    <Content Include="Views\ProfileDetails\ProfileDetailsCtrl.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
